@@ -7,7 +7,7 @@ namespace BulkyBookWeb.Data
     {
         public BulkyDBContext(DbContextOptions<BulkyDBContext> options): base(options)
         {
-
+           
         }
         public DbSet<Category> Categories { get; set; } 
     }
